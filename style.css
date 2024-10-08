@@ -1,0 +1,57 @@
+@import url('');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, a {
+  font-family: "";
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5%;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  /* background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(GT_headerimageglow.jpg); */
+  background-image: url(images\hero.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+}
+
+.logo_area {
+
+}
+
+.nav_list {
+  list-style: none;
+  margin-top: -0.75em;
+}
+
+.nav_list li {
+ display: inline-block;
+ padding: 0.25em 0.25em;
+}
+
+.nav_list.nav_list--secondary {
+  margin-top: -0.75em;
+}
+
+.nav_list.nav_list--secondary .nav_item + .nav_item {
+  margin: -0.25em;
+}
