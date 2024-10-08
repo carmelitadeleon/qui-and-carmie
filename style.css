@@ -56,7 +56,7 @@ header {
   margin: -0.25em;
 }
 
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 341px) {
   .hero {
     background-position: 65%;
     transform: scale(1.2);
