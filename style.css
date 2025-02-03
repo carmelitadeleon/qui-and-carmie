@@ -128,13 +128,13 @@ nav ul li a{
 
 
 
-@media screen and (max-height: 850px) {
+@media screen and (max-width: 850px) {
   header {
     padding: 90px 5%;
   }
   .hero {
-    background-position: 65%;
-    transform: scale(1.5);
+    background-position: top center;
+    /* transform: scale(1.5); */
     box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .2);
   }
 
@@ -220,7 +220,7 @@ nav ul li a{
     transform: rotate(90deg) translate(-3px);
   }
 
-  .nav {
+  nav {
     visibility: hidden;
   }
 
