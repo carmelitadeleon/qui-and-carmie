@@ -41,7 +41,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 5%;
+  padding: 20px 5%;
 }
 
 .hero {
@@ -150,7 +150,7 @@ nav li {
 
 @media screen and (max-width: 850px) {
   header {
-    padding: 90px 5%;
+    padding: 0px 25%;
   }
   .hero {
     background-position: top center;
