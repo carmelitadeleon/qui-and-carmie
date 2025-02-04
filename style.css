@@ -151,7 +151,7 @@ nav li {
 
 @media screen and (max-width: 850px) {
   header {
-    padding: 0px 25%;
+    padding: 0px 0%;
   }
   .hero {
     background-position: top center;
@@ -198,11 +198,13 @@ nav li {
     .nav_list {
       display: flex;
     text-align: center;
-    background-color: rgba(143, 171, 165, 0.75);
+    background-color: rgb(193, 159, 184);
     flex-direction: column;
     width: 48vw;
     float: right;
-
+    opacity: 75%;
+margin-top: -5.75em;
+height: 100vh;
     }
 
     .nav_list li {
