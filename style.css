@@ -185,6 +185,8 @@ nav li {
 
     nav ul li a {
       padding-left: 25px;
+              text-shadow: 2px 2px 5px black;
+              color: white;
     }
 
 
