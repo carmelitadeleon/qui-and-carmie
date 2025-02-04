@@ -42,6 +42,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 5%;
+  color: white;
+          text-shadow: 2px 2px 5px black;
 }
 
 .hero {
@@ -63,7 +65,6 @@ h4 {
   font-size: 28px;
 }
 
-
 nav ul li a:hover {
   /* background: #000000;
   color: #FFFFFF; */
@@ -84,6 +85,10 @@ nav ul li a {
   font-size: 30px;
   /* padding: 15px; */
   line-height: 20px;
+  color: white;
+          text-shadow: 2px 2px 5px black;
+
+
 }
 
 /*Navigation mobile styles*/
@@ -106,6 +111,7 @@ nav ul li a {
   justify-content: space-between;
   align-items: center;
   margin-top: 1em;
+
 }
 
 .nav_list {
@@ -187,6 +193,7 @@ nav li {
       padding-left: 25px;
               text-shadow: 2px 2px 5px black;
               color: white;
+              font-size: 1.5em;
     }
 
 
@@ -204,7 +211,7 @@ nav li {
     flex-direction: column;
     width: 48vw;
     float: right;
-    opacity: 75%;
+    opacity: 90%;
 margin-top: -5.75em;
 height: 100vh;
 color: white;
