@@ -205,10 +205,13 @@ nav li {
     opacity: 75%;
 margin-top: -5.75em;
 height: 100vh;
+color: white;
+        text-shadow: 2px 2px 5px black;
     }
 
     .nav_list li {
       padding-left: 0%;
+      padding: 5.25em 0.25em;
     }
 
     .nav-mobile {
