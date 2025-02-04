@@ -121,6 +121,7 @@ nav ul li a {
   display: inline-block;
   vertical-align: middle;
   padding: 0.25em 0.25em;
+  padding-left: 2%;
 }
 /* .logo {
   width: 20%;
@@ -202,6 +203,10 @@ nav li {
     width: 48vw;
     float: right;
 
+    }
+
+    .nav_list li {
+      padding-left: 0%;
     }
 
     .nav-mobile {
