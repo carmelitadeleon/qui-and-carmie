@@ -37,6 +37,11 @@ body,
   src: url('fonts/penna.otf') format('opentype');
 }
 
+p {
+  font-size: 2rem;
+  padding: 5%;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -152,7 +157,21 @@ nav li {
   position: relative;
 }
 
+/*Section 1: Story*/
+section {
+  display: block;
+    position: absolute;
+    width: 60vw;
+    height: 100vh;
+}
 
+section img {
+  display: block;
+    float: right;
+    width: 66%;
+    margin-right: -71%;
+
+}
 
 
 @media screen and (max-width: 850px) {
