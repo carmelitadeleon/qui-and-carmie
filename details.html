@@ -67,8 +67,9 @@ Habitant ultricies facilisi interdum rutrum eu. Diam curae pretium maecenas taci
 
   <div class="event2">
     <div class="event_details">
-      <h1>WEDDING<br>DETAILS</h1>
+      <h1 id="details_h1">WEDDING</h1><div class="dotted"><br><p id="h1_text">DETAILS</p></div>
     </div>
+    <div class="content">
   <div class="words">
     <img src="./images/clock.png"></img>
     <br>
@@ -84,18 +85,32 @@ Habitant ultricies facilisi interdum rutrum eu. Diam curae pretium maecenas taci
   <img src="./images/location.png"</img>
     <h2>Where</h2>
     <br>
-    Wedding Ceremony: St. Mary Magdalen Parish<
+    Wedding Ceremony: St. Mary Magdalen Parish
     <br>Wedding Reception: APEX Everett
     <br>
     <br>
     <img src="./images/attire.png"></img>
     <h2>Attire</h2>
     Formal / Semi-Formal
+  </p>
   </div>
   <!--The div element for the map -->
   <div class="map">
-    <gmp-map center="47.920521, -122.222527" zoom="10" map-id="DEMO_MAP_ID" style="height: 400px"></gmp-map></div>
+    <gmp-map
+      center="47.982567, -122.193375"
+      zoom="10"
+      map-id="DEMO_MAP_ID"
+      style="height: 90vh"
+    >
+      <gmp-advanced-marker
+        position="47.920521, -122.222527"
+        title="St. Mary Magdalen Parish"
+      ></gmp-advanced-marker>
+    </gmp-map>
+
+</div>
   </div>
+</div>
 
 
   <footer>
@@ -105,8 +120,11 @@ Habitant ultricies facilisi interdum rutrum eu. Diam curae pretium maecenas taci
 
 
 
-
+<!-- <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+       ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script> -->
     <script src="main.js"></script>
+    <!-- <script src="getMap.js"></script> -->
+
 
     <!-- <script>
   (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({

@@ -41,6 +41,15 @@ p {
   font-size: 2rem;
 }
 
+#h1_text {
+  font-family: 'penna';
+  font-size: 70px;
+  margin-right: 50px;
+  float: right;
+  right: 20%;
+  top: 53%;
+  z-index: 900;
+}
 header {
   display: flex;
   justify-content: center;
@@ -69,6 +78,28 @@ h1 {
   font-size: 3rem;
   text-shadow: 2px 2px 4px gray;
   color: white;
+}
+
+.dotted {
+  display: flex;
+    /* border-top: 3px dotted #bbb; */
+    align-items: center;
+}
+
+.dotted::before, .dotted::after {
+  flex: 1;
+  content: '';
+  padding: 3px;
+  margin: 5px;
+  border-top: 3px dotted #bbb;
+}
+
+#details_h1 {
+  font-family: 'WhisperingSignature';
+  font-size: 6rem;
+  text-shadow: 2px 2px 4px gray;
+  color: white;
+  text-align: center;
 }
 
 h4 {
@@ -240,18 +271,35 @@ section img {
   width: 50%;
 }
 
+#map {
+  height: 90vh;
+}
+
+
 .words {
   display: block;
   position: absolute;
   float: left;
   text-align: center;
+  font-size: 1rem;
 }
 
 .words img {
   width: 30%;
 }
+
+.content {
+  margin: 11%;
+    min-height: 100vh;
+
+}
+
 .info {
   padding: 10%;
+}
+
+#event3 {
+  font-size:4rem;
 }
 
 
@@ -269,6 +317,15 @@ Mobile mode settings
 **/
 @media screen and (max-width: 850px) {
   h1 {
+    font-size: 2rem;
+  }
+
+  #h1_text {
+    font-size: 2.5rem;
+    top: 25%;
+  }
+
+  #details_h1 {
     font-size: 2rem;
   }
   p {
@@ -409,6 +466,15 @@ span.three {
 
 .event{
   height: 80%;
+}
+
+/* .event2 {
+  height: 100vh;
+} */
+
+.content {
+  margin-top:25%;
+
 }
 
   }
