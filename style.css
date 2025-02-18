@@ -382,7 +382,8 @@ Mobile mode settings
     .nav_list {
       display: flex;
     text-align: center;
-    background-color: rgb(193, 159, 184);
+    /* background-color: rgb(193, 159, 184); */
+    background-color: #8f748c;
     flex-direction: column;
     width: 48vw;
     float: right;
