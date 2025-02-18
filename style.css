@@ -66,7 +66,7 @@ header {
 
 h1 {
   font-family: 'WhisperingSignature';
-  font-size: 60px;
+  font-size: 3rem;
   text-shadow: 2px 2px 4px gray;
   color: white;
 }
@@ -226,8 +226,10 @@ section img {
 }
 
 .event2 {
-  padding: 5%;
-  margin: 10%;
+  padding: 0%;
+    margin: 5%;
+    min-height: 100vh;
+
 }
 
 .map {
@@ -245,6 +247,9 @@ section img {
   text-align: center;
 }
 
+.words img {
+  width: 30%;
+}
 .info {
   padding: 10%;
 }
@@ -256,12 +261,15 @@ footer {
   padding: 3px;
   background-color: gray;
   color: white;
+
 }
 
-
+/**
+Mobile mode settings
+**/
 @media screen and (max-width: 850px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   p {
     font-size: 2rem;
