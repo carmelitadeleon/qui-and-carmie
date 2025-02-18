@@ -39,12 +39,11 @@ body,
 
 p {
   font-size: 2rem;
-  padding: 5%;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 20px 5%;
   color: white;
@@ -62,7 +61,9 @@ header {
 
 h1 {
   font-family: 'WhisperingSignature';
-  font-size: 36px;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px gray;
+  color: white;
 }
 
 h4 {
@@ -123,7 +124,7 @@ nav ul li a {
   /* display: flex; */
   position: relative;
   list-style: none;
-  margin-top: -0.75em;
+  margin-top: 1.25em;
   margin-bottom: 1.25em;
   text-align: center;
 }
@@ -157,6 +158,52 @@ nav li {
   position: relative;
 }
 
+/**Arrow Highlight border*/
+
+p{
+  font-size: 3em;
+  color: white;
+  position: absolute;
+  z-index: 900;
+}
+.arrow-highlight{
+  position:relative;
+  margin:0 0.5em;
+  padding:0 0.2em;
+  text-shadow: 2px 2px 4px #000000;
+}
+.arrow-highlight:before{
+  content: "";
+    z-index: -1;
+    left: -0.5em;
+    top: 0.1em;
+    border-width: 0.5em;
+    border-style: solid;
+    border-color: #8f748c;
+      border-left-color: rgb(143, 116, 140);
+    position: absolute;
+    width: calc(100% - 0.5em);
+    border-left-color: transparent;
+}
+.arrow-highlight:after{
+  content: "";
+  z-index: -1;
+  right: 0;
+  top: 0.1em;
+  border-width: 0.5em;
+  border-style: solid;
+  border-color: #8f748c;
+    border-top-color: rgb(143, 116, 140);
+    border-bottom-color: rgb(143, 116, 140);
+    border-left-color: rgb(143, 116, 140);
+  position: absolute;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(180deg);
+  transform-origin: center right;
+}
+
 /*Section 1: Story*/
 section {
   display: block;
@@ -173,10 +220,46 @@ section img {
 
 }
 
+.event2 {
+  padding: 5%;
+  margin: 10%;
+}
+
+.map {
+  display: block;
+  position: relative;
+  float: right;
+  height: 400px;
+  width: 50%;
+}
+
+.words {
+  display: block;
+  position: absolute;
+  float: left;
+  text-align: center;
+}
+
+.info {
+  padding: 10%;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: gray;
+  color: white;
+}
+
 
 @media screen and (max-width: 850px) {
+  h1 {
+    font-size: 3rem;
+  }
   p {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   header {
     padding: 0px 0%;
@@ -242,7 +325,7 @@ color: white;
 
     .nav_list li {
       padding-left: 0%;
-      padding: 5.25em 0.25em;
+      padding: 15% 0.25em;
     }
 
     .nav-mobile {
@@ -260,15 +343,15 @@ color: white;
     }
 
   .info {
+    padding: 0%;
     font-family: 'penna';
     position: absolute;
-    top: 50%;
+    top: 59%;
     color: white;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px 4px #000000;
-    font-size: 16px;
-    text-align: center;
+    font-size: 3px;
   }
 
 /*Hamburger Menu/Navigation*/
@@ -307,8 +390,12 @@ span.three {
   transform: translateY(-6px) rotate(-45deg);
 }
 
-section {
-  height: auto;
+.story{
+  height: 60%;
+}
+
+.event{
+  height: 80%;
 }
 
   }
