@@ -294,6 +294,10 @@ section img {
   height: 90vh;
 }
 
+.map-mobile {
+  display: none;
+}
+
 
 .words {
   display: block;
