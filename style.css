@@ -334,6 +334,7 @@ Mobile mode settings
   }
   p {
     font-size: 2rem;
+    position: relative;
   }
   header {
     padding: 0px 0%;
@@ -464,6 +465,15 @@ span.three {
 .clicked .three {
   transform: translateY(-6px) rotate(-45deg);
 }
+/**Info content*/
+.arrow-highlight::before {
+  width: calc(100% - -1.5em);
+}
+
+.arrow-highlight::after {
+  right: -2em;
+}
+
 
 .story{
   height: 60%;
