@@ -240,6 +240,25 @@ p{
   transform-origin: center right;
 }
 
+/*RSVP Button*/
+
+.button {
+  background-color: #8f748c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  text-shadow: 2px 2px 4px black;
+  outline-style: double;
+}
+
+
 /*Section 1: Story*/
 section {
   display: block;
