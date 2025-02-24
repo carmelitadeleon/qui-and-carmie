@@ -387,6 +387,7 @@ Mobile mode settings
 
   #details_h1 {
     font-size: 2rem;
+    text-align: left;
   }
   p {
     font-size: 2rem;
@@ -564,6 +565,12 @@ span.three {
 .map-mobile {
   display: block;
   position: relative;
+  height: 500px;
+  width: 85vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .map {
@@ -573,7 +580,12 @@ span.three {
 
 #h1_text::before,
 #h1_text::after {
-  width: 40%;;
+  width: 40%;
+}
+
+#h1_text {
+  float: right;
+  right: 0%;
 }
   }
 
