@@ -80,6 +80,38 @@ h1 {
   color: white;
 }
 
+/**Test*/
+#h1_text::before,
+#h1_text::after {
+  /* background-color: white; */
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  border-top: 2px dotted #bbb;
+
+}
+
+
+
+#h1_text::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+#h1_text::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/**/
+
+
+
+
+
 .dotted {
   display: flex;
     /* border-top: 3px dotted #bbb; */
@@ -514,11 +546,19 @@ span.three {
 
 .content {
   margin-top:25%;
+  margin-left: auto;
+    margin-right: auto;
+
 }
 
 .words {
   float: none;
   position: relative;
+
+}
+
+.words img {
+  width: 25%;
 }
 
 .map-mobile {
@@ -530,6 +570,11 @@ span.three {
   display: none;
 }
 
+
+#h1_text::before,
+#h1_text::after {
+  width: 40%;;
+}
   }
 
   /* .nav_list {
