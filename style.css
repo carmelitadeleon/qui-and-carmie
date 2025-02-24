@@ -41,7 +41,7 @@ p {
   font-size: 2rem;
 }
 
-#h1_text {
+#h1_text, #h1travel_text {
   font-family: 'penna';
   font-size: 70px;
   margin-right: 50px;
@@ -82,7 +82,9 @@ h1 {
 
 /**Test*/
 #h1_text::before,
-#h1_text::after {
+#h1_text::after,
+#h1travel_text::before,
+#h1travel_text::after {
   /* background-color: white; */
   content: "";
   display: inline-block;
@@ -96,12 +98,12 @@ h1 {
 
 
 
-#h1_text::before {
+#h1_text::before, #h1travel_text::before {
   right: 0.5em;
   margin-left: -50%;
 }
 
-#h1_text::after {
+#h1_text::after, #h1travel_text::after {
   left: 0.5em;
   margin-right: -50%;
 }
@@ -380,7 +382,7 @@ Mobile mode settings
     font-size: 2.5rem;
   }
 
-  #h1_text {
+  #h1_text, #h1travel_text {
     font-size: 2.5rem;
     top: 25%;
   }
@@ -390,7 +392,8 @@ Mobile mode settings
     text-align: left;
   }
   p {
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 6em;
     position: relative;
   }
   header {
@@ -579,11 +582,17 @@ span.three {
 
 
 #h1_text::before,
-#h1_text::after {
+#h1_text::after,
+#h1travel_text::before,
+#h1travel_text::after {
   width: 40%;
 }
 
-#h1_text {
+#h1travel_text::before {
+  margin-left: -30%;
+}
+
+#h1_text, #h1travel_text {
   float: right;
   right: 0%;
 }
