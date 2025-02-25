@@ -641,6 +641,16 @@ footer img {
 footer {
   position: fixed;
 }
+
+.button {
+  transition: opacity 0.4s ease, transform 0.3s ease;
+
+}
+
+.button:hover {
+  opacity: 0.7;
+            transform: scale(1.05);
+}
 /**
 Mobile mode settings
 **/
