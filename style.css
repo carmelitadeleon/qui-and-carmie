@@ -378,7 +378,7 @@ section img {
 
 .words {
   display: block;
-  position: absolute;
+  /* position: absolute; */
   float: left;
   text-align: center;
   font-size: 1rem;
@@ -389,7 +389,7 @@ section img {
 }
 
 .content {
-  margin: 11%;
+  /* margin: 11%; */
     min-height: 100vh;
 
 }
@@ -592,6 +592,10 @@ h2 {
     order: 2;
 }
 
+.hotel h3 {
+  float: right;
+}
+
 /* Footer */
 /* footer {
     background: rgba(255, 255, 255, 0.2);
@@ -632,6 +636,10 @@ footer img {
     width: 30px;
     vertical-align: middle;
     margin: 0 5px;
+}
+
+footer {
+  position: fixed;
 }
 /**
 Mobile mode settings
@@ -861,6 +869,27 @@ span.three {
 .words img {
   width: 25%;
 }
+
+.hotel {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      text-align: center;
+  }
+
+  .hotel img {
+      width: 100%; /* Full width for better scaling */
+      max-width: 300px; /* Prevent images from becoming too big */
+      margin-bottom: 15px;
+  }
+
+  .hotel-info {
+      padding: 0;
+  }
+
+  .event-travel p{
+    font-size: 2em;
+  }
+
+
   }
 
   /* .nav_list {
