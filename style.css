@@ -716,6 +716,10 @@ footer {
     border: 0px;
   }
 
+  .info p {
+    position: relative;
+  }
+
 /**
 Mobile mode settings
 **/
