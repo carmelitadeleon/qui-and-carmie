@@ -328,7 +328,7 @@ p{
 /*Section 1: Story*/
 section {
   display: block;
-    position: absolute;
+    position: relative;
     width: 60vw;
     height: 100vh;
 }
@@ -417,6 +417,7 @@ section img {
        padding: 50px 20px;
        margin: 30px 0;
        background: #333; /* Dark Background for Contrast */
+       position: relative;
    }
 
    .section:nth-child(even) {
@@ -651,6 +652,44 @@ footer {
   opacity: 0.7;
             transform: scale(1.05);
 }
+
+.storytime p {
+  position: relative;
+}
+
+#hotel1 p {
+  position: relative;
+}
+
+hotel {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      text-align: center;
+  }
+
+
+
+  .hotel img {
+      width: 100%; /* Full width for better scaling */
+      max-width: 300px; /* Prevent images from becoming too big */
+      margin-bottom: 15px;
+  }
+
+  .hotel-info {
+      padding: 0;
+  }
+
+  .event-travel p{
+    font-size: 3em;
+  position: relative;
+  width: 40vw;
+
+  }
+
+  .event-travel {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 /**
 Mobile mode settings
 **/
@@ -669,8 +708,7 @@ Mobile mode settings
     text-align: left;
   }
   p {
-    /* font-size: 2rem; */
-    font-size: 6em;
+font-size: 2rem;    /* font-size: 6em; */
     position: relative;
   }
   header {
@@ -885,6 +923,8 @@ span.three {
       text-align: center;
   }
 
+
+
   .hotel img {
       width: 100%; /* Full width for better scaling */
       max-width: 300px; /* Prevent images from becoming too big */
@@ -898,6 +938,14 @@ span.three {
   .event-travel p{
     font-size: 2em;
   }
+
+  /**
+  Arrows
+  **/
+footer {
+  font-size: 1rem;
+}
+
 
 
   }
