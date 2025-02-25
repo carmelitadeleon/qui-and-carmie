@@ -62,12 +62,38 @@
       <br>
       <br>
       <br>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSeeyUig2lcGZuGiQyJKRiSe6BOBZ2wfb2X_BEWSIHlvED71Jg/viewform" target="blank" class="button">RSVP</a>
-    </div>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeeyUig2lcGZuGiQyJKRiSe6BOBZ2wfb2X_BEWSIHlvED71Jg/viewform" target="blank" class="button">RSVP</a><brf>
+
     </div>
 
+
+
+    <div class="countdown">
+           <div class="time-box">
+               <div id="days">00</div>
+               <div class="label">Days</div>
+           </div>
+           <span>:</span>
+           <div class="time-box">
+               <div id="hours">00</div>
+               <div class="label">Hours</div>
+           </div>
+           <span>:</span>
+           <div class="time-box">
+               <div id="minutes">00</div>
+               <div class="label">Minutes</div>
+           </div>
+           <span>:</span>
+           <div class="time-box">
+               <div id="seconds">00</div>
+               <div class="label">Seconds</div>
+           </div>
+       </div>
+
+</div>
+
     <footer>
-  <h3>SAVE THE DATE <img src="./images/rings.png"></img> September 27, 2025</h3>
+  <h3>SAVE THE DATE <img src="./images/rings.png"></img>September 27, 2025</h3>
 </footer>
     <!-- <div class="story"><img src="images/QC_2.jpeg" id="qc1"><p>Lorem ipsum odor amet, consectetuer adipiscing elit. Volutpat orci maximus eleifend odio; proin tempor sem. Nunc ipsum nulla faucibus bibendum eget orci nam nam. Eleifend magnis ac adipiscing nibh adipiscing justo interdum odio habitant. Neque conubia metus orci integer vitae dolor consectetur sapien. Dis efficitur turpis nisi hendrerit porttitor tristique eleifend justo. Ligula cursus diam blandit velit sagittis aptent ac. Dui tellus tristique ornare maximus parturient euismod ridiculus.
 
@@ -80,6 +106,27 @@ Habitant ultricies facilisi interdum rutrum eu. Diam curae pretium maecenas taci
     1611 Everett Ave, Everett, WA 98201
 
   </p></div> -->
+  <!--Countdown script-->
+  <script>
+       function startCountdown(targetDate) {
+           function updateTimer() {
+               const now = new Date().getTime();
+               const distance = targetDate - now;
+               if (distance < 0) {
+                   document.querySelector('.countdown').innerHTML = "Countdown Expired";
+                   return;
+               }
+               document.getElementById('days').textContent = Math.floor(distance / (1000 * 60 * 60 * 24));
+               document.getElementById('hours').textContent = String(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0');
+               document.getElementById('minutes').textContent = String(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
+               document.getElementById('seconds').textContent = String(Math.floor((distance % (1000 * 60)) / 1000)).padStart(2, '0');
+           }
+           updateTimer();
+           setInterval(updateTimer, 1000);
+       }
+       startCountdown(new Date('September 27, 2025 00:00:00').getTime());
+   </script>
+
 
     <script src="main.js"></script>
 
