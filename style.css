@@ -46,9 +46,11 @@ p {
   font-size: 70px;
   margin-right: 50px;
   float: right;
-  right: 20%;
-  top: 53%;
+  /* right: 20%;
+  top: 53%; */
   z-index: 900;
+  right: 21%;
+top: 40%;
 }
 header {
   display: flex;
@@ -314,6 +316,17 @@ section img {
     margin: 5%;
     min-height: 100vh;
 
+}
+
+.event2 h3 {
+  text-align: center;
+}
+
+.event2 img {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .map {
