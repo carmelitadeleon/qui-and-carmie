@@ -720,6 +720,11 @@ footer {
     position: relative;
   }
 
+
+  section {
+        width: 100%;
+  }
+
 /**
 Mobile mode settings
 **/
@@ -977,9 +982,6 @@ footer {
 }
 
 
-section {
-      width: 100%;
-}
 
 
 
