@@ -504,7 +504,7 @@ section img {
 }
 
 /* Reduce spacing in .event2 */
-.event2 {
+.event2, .detailswed {
     padding: 30px 10%; /* Reduced padding */
     text-align: center;
 }
@@ -514,6 +514,8 @@ section img {
   border-radius: 12px;
   border: 3px solid #f8e1e7;
 }
+
+
 
 /* Reduce spacing in .words section */
 .words {
@@ -728,7 +730,7 @@ footer {
 }
   }
 
-  .event2 img {
+  .words img {
       border: none;
   }
 
@@ -745,6 +747,11 @@ footer {
     padding-left: 12%;
         padding-top: 4%;
         padding-bottom: 1%;
+  }
+
+  .detailswed img {
+    border: none;
+    width: 30%;
   }
 /**
 Mobile mode settings
