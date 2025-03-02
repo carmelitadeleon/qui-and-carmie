@@ -723,8 +723,29 @@ footer {
 
   section {
         width: 100%;
+        padding-left: 5%;
+  padding-right: 5%;
+}
   }
 
+  .event2 img {
+      border: none;
+  }
+
+  .storytime img {
+    border: 3px solid #f8e1e7;
+  }
+
+  .hotel img {
+    width: 98%;
+  }
+
+
+  .info {
+    padding-left: 12%;
+        padding-top: 4%;
+        padding-bottom: 1%;
+  }
 /**
 Mobile mode settings
 **/
@@ -994,6 +1015,11 @@ footer {
  position: relative;
  width: 60vw;
 }
+
+.event2 {
+  padding: 0%;
+}
+
 
 
 
