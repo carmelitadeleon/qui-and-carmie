@@ -70,7 +70,8 @@ header {
 }
 
 .hero {
-  height: 100vh;
+  /* height: 100vh; */
+  height: 120vh;
   width: 100%;
   /* background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(GT_headerimageglow.jpg); */
   background-image: url(images/hero3.jpg);
@@ -651,6 +652,7 @@ footer {
     bottom: 0;
     width: 100%;
     border-top: 3px solid #f8e1e7;
+    margin-bottom: -200px;
 }
 
 footer img {
@@ -659,9 +661,9 @@ footer img {
     margin: 0 5px;
 }
 
-footer {
+/* footer {
   position: fixed;
-}
+} */
 
 .button {
   transition: opacity 0.4s ease, transform 0.3s ease;
@@ -1056,6 +1058,9 @@ header {
   z-index: 900;
 }
 
+.hero {
+  height: 100vh;
+}
 
 
 
