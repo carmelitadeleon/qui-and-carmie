@@ -845,8 +845,8 @@ margin-top: -5.75em;
 height: 100vh;
 color: white;
         text-shadow: 2px 2px 5px black;
-        position: absolute;
-        right: 0;
+        /* position: absolute; */
+        /* right: 0; */
     }
 
     .nav_list li {
@@ -863,7 +863,7 @@ color: white;
       /* background-color: rgba(143, 171, 165, 0.75); */
       height: 70px;
       width: 70px;
-    }6
+    }
 
     .links {
       display: none;
