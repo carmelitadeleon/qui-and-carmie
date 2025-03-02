@@ -956,6 +956,7 @@ span.three {
 .hotel {
       flex-direction: column; /* Stack items vertically on smaller screens */
       text-align: center;
+      align-items:center;
   }
 
 
@@ -979,6 +980,19 @@ span.three {
   **/
 footer {
   font-size: 1rem;
+}
+
+.event-travel p {
+   font-size: 1.5em;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+}
+.event-travel p {
+ font-size: 1rem;
+ position: relative;
+ width: 60vw;
 }
 
 
