@@ -845,7 +845,7 @@ margin-top: -5.75em;
 height: 100vh;
 color: white;
         text-shadow: 2px 2px 5px black;
-        /* position: absolute; */
+        position: absolute;
         /* right: 0; */
     }
 
@@ -1040,7 +1040,13 @@ footer {
   padding: 0%;
 }
 
+.storytime p {
+  z-index: 2;
+}
 
+header {
+  z-index: 900;
+}
 
 
 
