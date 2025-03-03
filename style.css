@@ -329,9 +329,11 @@ footer img {
 
 /* Reduce spacing in sections */
 .event2, .detailswed {
-    padding: 30px 10%; /* Reduced padding */
-    text-align: center;
-    margin-bottom: 10%;
+  padding: 30px 10%; /* Reduced padding */
+  text-align: center;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .event2 img {
@@ -539,7 +541,7 @@ p {
   font-size: 3em;
   color: white;
   position: absolute;
-  z-index: 900;
+  z-index: 5;
 }
 
 #event3 {
