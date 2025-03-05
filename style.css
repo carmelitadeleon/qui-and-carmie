@@ -370,7 +370,8 @@ p {
 
 .detailswed img {
   border: none;
-  width: 30%;
+  width: 94%;
+  height: 94%;
 }
 
 .words {
@@ -558,6 +559,16 @@ h2 {
     margin-top: 10px; /* Reduced top margin */
 }
 
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
 /**
 Mobile mode settings
 **/
@@ -734,7 +745,7 @@ Mobile mode settings
   .detailswed {
     padding: 0;
   }
-  
+
   .place img {
     width: 90%;
     float: none;
