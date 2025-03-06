@@ -530,6 +530,11 @@ section img {
   margin-right: -71%;
 }
 
+/**FAQ Section*/
+.questions {
+  text-align: left;
+}
+
 h1 {
   font-family: 'WhisperingSignature';
   font-size: 3rem;
