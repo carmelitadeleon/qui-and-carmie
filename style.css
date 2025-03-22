@@ -41,6 +41,10 @@ body,
   src: url('fonts/penna.otf') format('opentype');
 }
 
+h4 {
+  color: #f8e1e7;
+}
+
 /**Homepage Hero*/
 .hero {
   /* height: 100vh; */
@@ -114,7 +118,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 2em;
+  font-size: 1.85em;
   /* padding: 15px; */
   line-height: 20px;
   color: white;
