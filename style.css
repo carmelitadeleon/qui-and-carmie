@@ -447,6 +447,13 @@ p {
   text-align: center;
 }
 
+.event-travel a {
+  font-family: "cardo";
+  color: purple;
+  text-shadow: 2px 2px 10px white;
+  font-size: 1.5rem;
+}
+
 /* Hotel Section */
 .hotel {
   display: flex;
