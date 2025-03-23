@@ -853,7 +853,7 @@ Mobile mode settings
 
    .hotel-info {
      padding: 0;
-     background-color: #8f748c !important;
+     /* background-color: #8f748c !important; */
      color: white; /* Ensure text is readable */
      /* padding: 15px; */
      /* background-color: #8f748c; */
