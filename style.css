@@ -831,7 +831,7 @@ Mobile mode settings
      width: 60vw;
    }
 
-   .event-travel a {
+   .hotel-info a {
      background: transparent !important;
      color: #5a2378; /* Change this to match your desired link color */
      text-decoration: none;
@@ -853,6 +853,9 @@ Mobile mode settings
 
    .hotel-info {
      padding: 0;
+     background-color: #8f748c !important;
+     color: white; /* Ensure text is readable */
+     /* padding: 15px; */
    }
 
    .hotel img {
