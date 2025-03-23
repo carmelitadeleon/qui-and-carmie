@@ -811,6 +811,11 @@ Mobile mode settings
     width: 90%;
   }
 
+  .event-travel {
+    opacity: 1;
+    background: #8f748c !important;
+  }
+
   .event-travel p {
      font-size: 1.5rem;
      display: block;
