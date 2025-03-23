@@ -765,6 +765,7 @@ Mobile mode settings
   /**Wedding Details section in mobile mode*/
   .detailswed {
     padding: 0;
+    width: 90%;
   }
 
   .place img {
