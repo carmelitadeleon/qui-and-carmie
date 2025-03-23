@@ -820,7 +820,6 @@ Mobile mode settings
     background: #8f748c !important;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3d(0,0,0);
-    z-index: -1;
   }
 
   .event-travel p {
