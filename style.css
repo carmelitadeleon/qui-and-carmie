@@ -811,8 +811,8 @@ Mobile mode settings
      width: 60vw;
    }
 
-   .event-details {
-     padding: 5%;
+   .event_details {
+     padding: 10%;
    }
 
    .hotel {
