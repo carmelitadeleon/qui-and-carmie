@@ -802,6 +802,10 @@ Mobile mode settings
     font-size: 2rem;
   }
 
+  .event2 {
+    width: 90%;
+  }
+
   .event-travel p {
      font-size: 1.5rem;
      display: block;
@@ -815,9 +819,9 @@ Mobile mode settings
      /* padding: 5%; */
    }
 
-   .questions {
+   /* .questions {
      width: 90%;
-   }
+   } */
 
    .hotel {
      flex-direction: column; /* Stack items vertically on smaller screens */
