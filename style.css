@@ -814,6 +814,8 @@ Mobile mode settings
   .event-travel {
     opacity: 1;
     background: #8f748c !important;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
   }
 
   .event-travel p {
