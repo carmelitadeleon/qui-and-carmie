@@ -812,7 +812,11 @@ Mobile mode settings
    }
 
    .event_details {
-     padding: 10%;
+     /* padding: 5%; */
+   }
+
+   .questions {
+     width: 90%;
    }
 
    .hotel {
