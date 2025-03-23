@@ -598,6 +598,10 @@ h2 {
 Mobile mode settings
 **/
 @media screen and (max-width: 850px) {
+  body, html {
+    background-color: #8f748c !important;
+  }
+  
   /**Header Image for all pages in mobile mode*/
   .hero {
     background-position: top center;
