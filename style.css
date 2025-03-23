@@ -125,6 +125,10 @@ nav ul li a {
   text-shadow: 2px 2px 5px black;
 }
 
+nav li:last-child {
+  padding-right: 0px;
+}
+
 .nav_list {
   /* display: flex; */
   position: relative;
