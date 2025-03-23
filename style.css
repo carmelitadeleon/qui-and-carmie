@@ -113,7 +113,7 @@ nav:not(:only-child):after {
 }
 
 nav ul li {
-  min-width: 190px;
+  /* min-width: 190px; */
   text-transform: uppercase;
 }
 
@@ -137,7 +137,8 @@ nav ul li a {
 .nav_list li {
   display: inline-block;
   vertical-align: middle;
-  padding: 0.25em 0.25em;
+  /* padding: 0.25em 0.25em; */
+  padding: 1.5em 1.5em;
   padding-left: 20px;
 }
 
