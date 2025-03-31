@@ -963,6 +963,8 @@ a.drop::after {
   .caption {
     bottom: 108px;
     font-size: 12px;
+    max-width: calc(100% - 66px);
+  }
   }
 
   /**Wedding Details section in mobile mode*/
