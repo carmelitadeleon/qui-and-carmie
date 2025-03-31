@@ -696,10 +696,15 @@ display: block;
   margin-right: auto;
 }
 
-.captions {
+.caption {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  bottom: 193px;
+  right: 29px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 /**FAQ Section*/
@@ -953,6 +958,10 @@ a.drop::after {
     position: relative;
     width: 100%;
     margin-top: 0;
+  }
+
+  .caption {
+    bottom: 108px;
   }
 
   /**Wedding Details section in mobile mode*/
