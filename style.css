@@ -606,9 +606,9 @@ display: block;
 .slider:nth-child(5) {
   background-image: url("images/photoshoot/qui-and-carmie6.jpg");
 }
-/* .slider:nth-child(6) {
-  background-image: url("images/photoshoot/qui-and-carmie.jpg");
-} */
+.slider:nth-child(6) {
+  background-image: url("images/photoshoot/qui-and-carmie7.jpg");
+}
 
 /*
 .slider:nth-child(7) {
