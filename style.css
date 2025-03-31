@@ -458,7 +458,7 @@ p {
 }
 
 /**Accommodations Section*/
-.event-travel {
+.event-travel, .photo-gallery {
   max-width: 900px;
   margin: auto;
   padding: 30px;
@@ -493,7 +493,7 @@ p {
 }
 
 /* Hotel Section */
-.hotel {
+.hotel, .pictures {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -579,6 +579,129 @@ section img {
   margin-right: -71%;
 }
 
+/**For Gallery page*/
+
+/* Position the image container (needed to position the left and right arrows) */
+.photoshoot {
+display: block;
+}
+
+/* Hide the images by default */
+  /* display: none; */
+
+
+.slider:nth-child(1) {
+  background-image: url("images/photoshoot/qui-and-carmie1.jpg");
+}
+
+.slider:nth-child(2) {
+  background-image: url("images/photoshoot/qui-and-carmie2.jpg");
+}
+.slider:nth-child(3) {
+  background-image: url("images/photoshoot/qui-and-carmie3.jpg");
+}
+.slider:nth-child(4) {
+  background-image: url("images/photoshoot/qui-and-carmie5.jpg");
+}
+.slider:nth-child(5) {
+  background-image: url("images/photoshoot/qui-and-carmie6.jpg");
+}
+/* .slider:nth-child(6) {
+  background-image: url("images/photoshoot/qui-and-carmie.jpg");
+} */
+
+/*
+.slider:nth-child(7) {
+  background-image: url("/images/photoshoot/");
+}
+.slider:nth-child(8) {
+  background-image: url("/images/photoshoot/");
+}
+.slider:nth-child(9) {
+  background-image: url("/images/photoshoot/");
+}
+.slider:nth-child(10) {
+  background-image: url("/images/photoshoot/");
+}
+.slider:nth-child( 11) {
+  background-image: url("/images/photoshoot/");
+} */
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.gall-mobile {
+  display: none;
+}
+
+.photo-gallery img {
+  float: none;
+}
+
+.pictures img {
+  width: 98%;
+  height: 98%;
+
+  border-radius: 12px;
+  border: 3px solid #f8e1e7;
+  width: 98%; /* Full width for better scaling */
+  /* max-width: 300px; /* Prevent images from becoming too big */ */
+  margin-bottom: 15px;
+  /* margin-right: 15px; */
+  border-radius: 12px;
+  border: 3px solid #f8e1e7;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.captions {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
 /**FAQ Section*/
 .questions {
   text-align: left;
@@ -623,7 +746,7 @@ h2 {
 
 /* Create three equal columns that sits next to each other */
 .column {
-  flex: 33.33%;
+  /* flex: 33.33%; */
   padding: 5px;
 }
 
@@ -814,6 +937,24 @@ a.drop::after {
     z-index: 2;
   }
 
+  /*Gallery*/
+  .mySlides {
+    display: none;
+  }
+
+  .gall-mobile {
+    display: block;
+    margin-top: -132px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .photos {
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+  }
+
   /**Wedding Details section in mobile mode*/
   .detailswed {
     padding: 0;
@@ -859,7 +1000,7 @@ a.drop::after {
     width: 90%;
   }
 
-  .event-travel {
+  .event-travel, .photo-gallery {
     opacity: 1;
     background: #8f748c !important;
     -webkit-backface-visibility: hidden;
@@ -907,6 +1048,10 @@ a.drop::after {
      width: 100%; /* Full width for better scaling */
      max-width: 300px; /* Prevent images from becoming too big */
      margin-bottom: 15px;
+   }
+
+   .pictures img {
+     width: 100%;
    }
 
   h1 {
