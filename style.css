@@ -403,6 +403,7 @@ p {
   height: 488px;
   float: left;
   object-fit: cover;
+  margin-bottom: 5%;
 }
 
 .words {
@@ -429,9 +430,9 @@ p {
 .map {
   display: block;
   position: relative;
-  float: right;
+  float: left;
   height: 400px;
-  width: 50%;
+  width: 58%;
 }
 
 #map {
