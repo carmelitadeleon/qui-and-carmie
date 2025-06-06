@@ -47,10 +47,8 @@ h4 {
 
 /**Homepage Hero*/
 .hero {
-  /* height: 100vh; */
   height: 120vh;
   width: 100%;
-  /* background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(GT_headerimageglow.jpg); */
   background-image: url(images/hero3.jpg);
   background-size: cover;
   background-position: top center;
@@ -102,24 +100,19 @@ nav li {
 }
 
 nav ul li a:hover {
-  /* background: #000000;
-  color: #FFFFFF; */
   background-color: black;
 }
 
 nav:not(:only-child):after {
   padding-left: 4px;
-  /* content: ' ▾'; */
 }
 
 nav ul li {
-  /* min-width: 190px; */
   text-transform: uppercase;
 }
 
 nav ul li a {
   font-size: 1.85em;
-  /* padding: 15px; */
   line-height: 20px;
   color: white;
   text-shadow: 2px 2px 5px black;
@@ -130,7 +123,6 @@ nav li:last-child {
 }
 
 .nav_list {
-  /* display: flex; */
   position: relative;
   list-style: none;
   margin-top: 1.25em;
@@ -141,7 +133,6 @@ nav li:last-child {
 .nav_list li {
   display: inline-block;
   vertical-align: middle;
-  /* padding: 0.25em 0.25em; */
   padding: 1.5em 1.5em;
   padding-left: 20px;
 }
@@ -151,16 +142,13 @@ nav li:last-child {
 }
 
 /*Forms drop down links*/
-a.drop:after{
+a.drop:after {
   content: '';
   border: 4px solid transparent;
-  /* border-top: 4px solid white; */
   margin-left: 2px;
   margin-bottom: 3px;
-  /* display: inline-block; */
   display: block;
   vertical-align: bottom;
-    /* background-color: rgba(143, 171, 165, 1); */
 }
 
 /*Navigation dropdown*/
@@ -173,14 +161,12 @@ a.drop:after{
 }
 
 .nav-dropdown {
-  /* position: static; */
   box-shadow: none;
   background-color: transparent;
 }
 
 .nav-dropdown li.dropforms {
   padding-left: 0%;
-
 }
 
 /**First page with info and arrow design*/
@@ -194,14 +180,14 @@ a.drop:after{
   position: relative;
 }
 
-.arrow-highlight{
-  position:relative;
-  margin:0 0.5em;
-  padding:0 0.2em;
+.arrow-highlight {
+  position: relative;
+  margin: 0 0.5em;
+  padding: 0 0.2em;
   text-shadow: 2px 2px 4px #000000;
 }
 
-.arrow-highlight:before{
+.arrow-highlight:before {
   content: "";
   z-index: -1;
   left: -0.5em;
@@ -325,16 +311,13 @@ footer img {
 }
 
 .event_details {
-  /* min-height: 100vh; */
   padding: 20px;
   display: flex;
   flex-direction: column;
 }
 
 .section-header {
-  /* font-family: 'Great Vibes', cursive; */
   font-size: 3rem;
-  /* text-transform: uppercase; */
   text-align: center;
   color: #f8e1e7;
   letter-spacing: 2px;
@@ -359,7 +342,6 @@ footer img {
   flex-grow: 1;
   height: 2px;
   background: #fff;
-  margin: 0 10px;
   background: #ffffff; /* White Divider */
   flex-shrink: 0;
   width: 60px;
@@ -370,12 +352,18 @@ footer img {
 }
 
 /* Reduce spacing in sections */
-.event2, .detailswed {
+.event2 {
   padding: 30px 10%; /* Reduced padding */
   text-align: center;
   margin-bottom: 10%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.detailswed {
+  padding: 30px 10%; /* Reduced padding */
+  text-align: center;
+  margin-bottom: 10%;
 }
 
 .event2 img {
@@ -398,46 +386,43 @@ p {
 }
 
 .content {
-  /* margin: 11%; */
-    /* min-height: 100vh;
- */
 }
 
 /*Wedding Details Section**/
 .place img {
-  width: 37%;
-  float: right;
-  margin: 7%;
+  width: 714px;
+  margin: 0;
+  height: 523px;
+  float: left;
 }
 
 .detailswed img {
-  width: 94%;
-  height: 94%;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
   border-radius: 12px;
   border: 3px solid #f8e1e7;
+  width: 58%;
+  height: 488px;
+  float: left;
+  object-fit: cover;
 }
 
 .words {
   max-width: 700px;
   margin: 0 auto;
-  font-size: 1.2rem;
   line-height: 1.4;
   color: #fff;
   display: block;
   /* position: absolute; */
-  float: left;
+  float: right;
   text-align: center;
   font-size: 1rem;
 }
 
 .words img {
-  width: 30%;
+  width: 15%;
   height: auto;
   margin-bottom: 5px; /* Reduced bottom margin */
   border: none;
+  float: none;
 }
 
 /**Map Section*/
@@ -460,7 +445,6 @@ p {
 /**Accommodations Section*/
 .event-travel, .photo-gallery {
   max-width: 900px;
-  margin: auto;
   padding: 30px;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
@@ -488,7 +472,6 @@ p {
 .event-travel a {
   font-family: "cardo";
   color: purple;
-  /* text-shadow: 2px 2px 10px white; */
   font-size: 1.5rem;
 }
 
@@ -496,9 +479,7 @@ p {
 .hotel, .pictures {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 20px;
-  margin-bottom: 40px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
@@ -527,16 +508,11 @@ p {
 }
 
 .hotel img {
-  width: 98%;
   height: 98%;
-
-  border-radius: 12px;
-  border: 3px solid #f8e1e7;
   width: 98%; /* Full width for better scaling */
   /* max-width: 300px; /* Prevent images from becoming too big */ */
   margin-bottom: 15px;
   /* margin-right: 15px; */
-  width: 98%;
   border-radius: 12px;
   border: 3px solid #f8e1e7;
   margin-left: auto;
@@ -681,11 +657,7 @@ display: block;
 }
 
 .pictures img {
-  width: 98%;
   height: 98%;
-
-  border-radius: 12px;
-  border: 3px solid #f8e1e7;
   width: 98%; /* Full width for better scaling */
   /* max-width: 300px; /* Prevent images from becoming too big */ */
   margin-bottom: 15px;
@@ -740,9 +712,9 @@ p {
 }
 
 h2 {
-    font-size: 1.6rem;
-    color: #fff;
-    margin-top: 10px; /* Reduced top margin */
+  font-size: 1.6rem;
+  color: #fff;
+  margin-top: 10px; /* Reduced top margin */
 }
 
 .row {
@@ -802,9 +774,9 @@ Mobile mode settings
 
   nav ul li a {
     padding: 0;
-            text-shadow: 2px 2px 5px black;
-            color: white;
-            font-size: 1.5em;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    font-size: 1.5em;
   }
 
   nav ul, li a, a:visited {
@@ -893,7 +865,7 @@ Mobile mode settings
     position: relative;
   }
 
-a.drop::after {
+  a.drop::after {
     position: relative;
     padding-bottom: 10%;
   }
@@ -965,18 +937,20 @@ a.drop::after {
     font-size: 12px;
     max-width: calc(100% - 66px);
   }
-  }
 
   /**Wedding Details section in mobile mode*/
   .detailswed {
     padding: 0;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .place img {
-    width: 90%;
     float: none;
     margin: 0;
+    width: 100%;
+    height: auto;
   }
 
   .words {
@@ -985,7 +959,7 @@ a.drop::after {
   }
 
   .words img {
-    width: 25%;
+    width: 15%;
   }
 
   .map {
@@ -997,10 +971,10 @@ a.drop::after {
     position: relative;
     height: 500px;
     width: 80vw;
-    display: block;
+    text-align: center;
+    float: none;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
   }
 
   /**Accommodations section in mobile mode*/
@@ -1020,51 +994,44 @@ a.drop::after {
   }
 
   .event-travel p {
-     font-size: 1.5rem;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     position: relative;
-     width: 60vw;
-   }
+    font-size: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 60vw;
+  }
 
-   .hotel-info a {
-     background: transparent !important;
-     color: #5a2378; /* Change this to match your desired link color */
-     text-decoration: none;
-   }
+  .hotel-info a {
+    background: transparent !important;
+    color: #5a2378; /* Change this to match your desired link color */
+    text-decoration: none;
+  }
 
-   .event_details {
+  .event_details {
      /* padding: 5%; */
-   }
+  }
 
-   /* .questions {
-     width: 90%;
-   } */
+  .hotel {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    text-align: center;
+    align-items:center;
+  }
 
-   .hotel {
-     flex-direction: column; /* Stack items vertically on smaller screens */
-     text-align: center;
-     align-items:center;
-   }
+  .hotel-info {
+    padding: 0;
+    color: white; /* Ensure text is readable */
+  }
 
-   .hotel-info {
-     padding: 0;
-     /* background-color: #8f748c !important; */
-     color: white; /* Ensure text is readable */
-     /* padding: 15px; */
-     /* background-color: #8f748c; */
-   }
+  .hotel img {
+    width: 100%; /* Full width for better scaling */
+    max-width: 300px; /* Prevent images from becoming too big */
+    margin-bottom: 15px;
+  }
 
-   .hotel img {
-     width: 100%; /* Full width for better scaling */
-     max-width: 300px; /* Prevent images from becoming too big */
-     margin-bottom: 15px;
-   }
-
-   .pictures img {
-     width: 100%;
-   }
+  .pictures img {
+    width: 100%;
+  }
 
   h1 {
     font-size: 2.5rem;
@@ -1082,6 +1049,5 @@ a.drop::after {
   h4 {
     font-size: 1.5rem;
   }
-
 
 }
