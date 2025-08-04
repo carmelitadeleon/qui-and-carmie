@@ -427,16 +427,25 @@ p {
 }
 
 /**Map Section*/
-.map {
+#maps {
   display: block;
-  position: relative;
+  /* position: relative;
   float: left;
   height: 400px;
-  width: 58%;
+  width: 58%; */
+  /* position: relative;
+  height: 90vh;
+  min-width: 60vw; */
+  position: relative;
+  height: 90vh;
+  min-width: 60vw;
 }
 
-#map {
+#iframe #map {
+  /* height: 90vh; */
+  position: relative;
   height: 90vh;
+  min-width: 60vw;
 }
 
 .map-mobile {
