@@ -438,7 +438,7 @@ p {
   min-width: 60vw; */
   position: relative;
   height: 90vh;
-  min-width: 60vw;
+  /* min-width: 60vw; */
 }
 
 #iframe #map {
@@ -976,15 +976,18 @@ Mobile mode settings
     display: none;
   }
 
+  #maps {
+    display: none;
+  }
+
   .map-mobile {
     display: block;
     position: relative;
-    height: 500px;
-    width: 80vw;
+    /* height: 500px; */
+    width: 90vw;
     text-align: center;
     float: none;
-    margin-left: auto;
-    margin-right: auto;
+
   }
 
   /**Accommodations section in mobile mode*/
