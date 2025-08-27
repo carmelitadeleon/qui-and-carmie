@@ -114,8 +114,14 @@
     <footer>
       <h3>SAVE THE DATE<img src="./images/rings.png"></img>September 27, 2025</h3>
       <h6>&copy; Carmelita de Leon & Qui Nguyen</h6>
+      <h6 class="last-updated"><i>Last Updated: <span id="lastModifiedDate"></span></i></h6>
     </footer>
 
+
+
+    <script>
+      document.getElementById("lastModifiedDate").innerHTML = document.lastModified;
+    </script>
   <!--Countdown script-->
     <script>
        function startCountdown(targetDate) {
