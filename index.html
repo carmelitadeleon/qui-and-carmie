@@ -83,7 +83,9 @@
         <br>
         <br>
         <br>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeeyUig2lcGZuGiQyJKRiSe6BOBZ2wfb2X_BEWSIHlvED71Jg/viewform" target="blank" class="button">RSVP</a><brf>
+          <!-- <div class="rsvp" on click="getPopup()"><a class="button">RSVP</a><span class="popuptext" id="myPopup">A Simple Popup!</span><br>
+          </div> -->
+          <a href="" class="button">RSVP</a>
       </div>
 
       <!--Countdown Timer for Wedding-->
@@ -142,6 +144,14 @@
        }
        startCountdown(new Date('September 27, 2025 00:00:00').getTime());
    </script>
+
+   <script>
+// When the user clicks on <div>, open the popup
+function getPopup() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="drop.js"></script>
