@@ -49,7 +49,7 @@ h4 {
 .hero {
   height: 120vh;
   width: 100%;
-  background-image: url(images/hero3.jpg);
+  background-image: url(images/hero4.jpg);
   background-size: cover;
   background-position: top center;
 }
@@ -747,7 +747,7 @@ Mobile mode settings
 
   /**Header Image for all pages in mobile mode*/
   .hero {
-    background-position: top center;
+    background-position: 80%;
     /* transform: scale(1.5); */
     box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .2);
     height: 100vh;
